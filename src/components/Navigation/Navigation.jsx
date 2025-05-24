@@ -9,7 +9,7 @@ import "./Navigation.css"
 
 export default function Navigation() {
   return (
-    <Navbar expand="lg" className="bg-body-transparent" data-bs-theme="light" sticky="top">
+    <Navbar expand="lg" className="bg-body-transparent" sticky="top">
       <Container>
         <div className="logo">
           <NavLink as={Link} to={"/"} className="left">A</NavLink>

@@ -5,13 +5,13 @@
 }
 
 .logo a {
-    color: white;
+    color: #8c52ff;
     text-decoration: none;
     transition: 200ms all ease-in-out;
 }
 
 .logo a:hover {
-    color: #8c52ff;
+    color: #ab86f7;
 }
 
 .logo .right {
@@ -23,10 +23,10 @@
 
 .nav-link a {
     font-weight: bold;
-    color: white;
+    color: #8c52ff;
     transition: 200ms all ease-in-out;
 }
 
 .nav-link a:hover {
-    color: #8c52ff;
+    color: #ab86f7;
 }
