@@ -1,5 +1,9 @@
+import Navigation from "../../components/Navigation/Navigation";
+
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <Navigation />
+    </div>
   )
 }

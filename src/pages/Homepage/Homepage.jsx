@@ -1,5 +1,9 @@
+import Navigation from "../../components/Navigation/Navigation.jsx";
+
 export default function Homepage() {
   return (
-    <div>Homepage</div>
+    <div>
+      <Navigation />
+    </div>
   )
 }
