@@ -7,6 +7,7 @@ import Projects from "./pages/Project/Project.jsx"
 import Contact from "./pages/Contact/Contact.jsx";
 
 import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
