@@ -21,22 +21,16 @@
     left: -3px;
 }
 
-.nav-links {
-    border: 2px solid #dcdcdc;
-    padding: 0 20px;
-    border-radius: 20px;
-    background-color: rgba(220, 220, 220, 0.2);
-}
-
-.nav-links a {
+.nav-link a {
     font-weight: bold;
     color: #8c52ff;
     transition: 200ms all ease-in-out;
 }
 
-.nav-links a:hover {
+.nav-link a:hover {
     color: #ab86f7;
 }
+
 
 .navbar-toggler {
     border: 2px solid #bb86fc !important;
