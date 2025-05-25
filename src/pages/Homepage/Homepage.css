@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+
+.title-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px auto;
+  gap: 30px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.title {
+    order: 1;
+}
+
+.title h2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.title-highlight,
+.title-job {
+  color: #8c52ff;
+}
+
+.title-highlight {
+  font-family: "Neonderthaw", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.typing-container {
+  display: inline-block;
+  width: 9ch;
+  vertical-align: bottom;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.title-highlight {
+  position: relative;
+  bottom: -12px;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid #8c52ff;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  width: 0;
+  animation: typing 3s steps(8, end) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  } /*To start with no visible text*/
+  to {
+    width: 8ch;
+  } /*End with how many characters the word is*/
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #8c52ff;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-start;
+  order: 2;
+}
+
+.image-container img {
+  border-radius: 20px;
+  border: 8px solid #bb86fc;
+}
+
+/* On mobile let image come first  */
+@media (max-width: 768px) {
+    .title-container {
+        flex-direction: column;
+    }
+
+    .title {
+        order: 2;
+    }
+
+    .image-container {
+        order: 1;
+    }
+}
